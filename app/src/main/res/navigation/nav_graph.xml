@@ -6,6 +6,33 @@
     app:startDestination="@id/FirstFragment">
 
     <fragment
+        android:id="@+id/ConversionHome"
+        android:name="com.example.sbupurple2022codeathon.ConversionHome"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/conversion_home">
+        <action
+            android:id="@+id/action_ConversionHome_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/LifeHome"
+        android:name="com.example.sbupurple2022codeathon.LifeHome"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/life_home">
+        <action
+            android:id="@+id/action_LifeHome_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/AutoHome"
+        android:name="com.example.sbupurple2022codeathon.AutoHome"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/auto_home">
+        <action
+            android:id="@+id/action_AutoHome_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
         android:id="@+id/FirstFragment"
         android:name="com.example.sbupurple2022codeathon.FirstFragment"
         android:label="@string/first_fragment_label"
@@ -13,30 +40,24 @@
 
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            app:destination="@id/HealthHome" />
         <action
-            android:id="@+id/action_FirstFragment_to_ThirdFragment"
-            app:destination="@id/ThirdFragment" />
+            android:id="@+id/action_FirstFragment_to_AutoHome"
+            app:destination="@id/AutoHome" />
+        <action
+            android:id="@+id/action_FirstFragment_to_conversionHome"
+            app:destination="@id/ConversionHome" />
+        <action
+            android:id="@+id/action_FirstFragment_to_lifeHome"
+            app:destination="@id/LifeHome" />
     </fragment>
     <fragment
-        android:id="@+id/SecondFragment"
-        android:name="com.example.sbupurple2022codeathon.SecondFragment"
+        android:id="@+id/HealthHome"
+        android:name="com.example.sbupurple2022codeathon.HealthHome"
         android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
-
+        tools:layout="@layout/health_home">
         <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/ThirdFragment"
-        android:name="com.example.sbupurple2022codeathon.ThirdFragment"
-        android:label="@string/third_fragment_label"
-        tools:layout="@layout/fragment_third">
-
-
-        <action
-            android:id="@+id/action_ThirdFragment_to_FirstFragment"
+            android:id="@+id/action_HealthHome_to_FirstFragment"
             app:destination="@id/FirstFragment" />
     </fragment>
 

@@ -11,29 +11,50 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_first_fragment"
-        app:layout_constraintBottom_toTopOf="@id/button_first"
+        app:layout_constraintBottom_toTopOf="@id/lifeButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button_first"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/next"
+        android:id="@+id/lifeButton"
+        android:layout_width="157dp"
+        android:layout_height="103dp"
+        android:text="@string/life"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textview_first" />
 
     <Button
-        android:id="@+id/toThird"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Click Me!"
+        android:id="@+id/convButton"
+        android:layout_width="164dp"
+        android:layout_height="153dp"
+        android:text="@string/conversion"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/lifeButton"
+        app:layout_constraintTop_toBottomOf="@+id/autoButton" />
+
+    <Button
+        android:id="@+id/autoButton"
+        android:layout_width="127dp"
+        android:layout_height="97dp"
+        android:text="@string/auto"
+        app:layout_constraintBottom_toTopOf="@+id/lifeButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/healthButton"
+        app:layout_constraintTop_toBottomOf="@+id/textview_first" />
+
+    <Button
+        android:id="@+id/healthButton"
+        android:layout_width="114dp"
+        android:layout_height="109dp"
+        android:text="@string/health"
+        app:layout_constraintBottom_toTopOf="@+id/lifeButton"
+        app:layout_constraintEnd_toStartOf="@+id/convButton"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_first" />
+        app:layout_constraintTop_toBottomOf="@+id/textview_first" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

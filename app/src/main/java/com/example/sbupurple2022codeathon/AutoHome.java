@@ -9,11 +9,12 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import com.example.sbupurple2022codeathon.databinding.FragmentSecondBinding;
+import com.example.sbupurple2022codeathon.databinding.AutoHomeBinding;
 
-public class SecondFragment extends Fragment {
 
-    private FragmentSecondBinding binding;
+public class AutoHome extends Fragment {
+
+    private AutoHomeBinding binding;
 
     @Override
     public View onCreateView(
@@ -21,7 +22,7 @@ public class SecondFragment extends Fragment {
             Bundle savedInstanceState
     ) {
 
-        binding = FragmentSecondBinding.inflate(inflater, container, false);
+        binding = AutoHomeBinding.inflate(inflater, container, false);
         return binding.getRoot();
 
     }
@@ -32,8 +33,8 @@ public class SecondFragment extends Fragment {
         binding.buttonSecond.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                NavHostFragment.findNavController(SecondFragment.this)
-                        .navigate(R.id.action_FirstFragment_to_AutoHome);
+                NavHostFragment.findNavController(AutoHome.this)
+                        .navigate(R.id.action_AutoHome_to_FirstFragment);
             }
         });
     }
