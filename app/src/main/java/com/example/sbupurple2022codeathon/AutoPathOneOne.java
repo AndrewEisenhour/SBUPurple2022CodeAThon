@@ -33,7 +33,7 @@ public class AutoPathOneOne extends Fragment {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(AutoPathOneOne.this)
-                        .navigate(R.id.action_LifeHome_to_FirstFragment);
+                        .navigate(R.id.action_autoPathOneOne_to_autoPathOneTwo);
             }
         });
     }

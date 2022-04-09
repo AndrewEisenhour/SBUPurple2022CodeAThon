@@ -36,12 +36,23 @@ public class LifePathFourOne extends Fragment {
                         .navigate(R.id.action_LifeHome_to_FirstFragment);
             }
         });
+        binding.cTof.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                double input = Double.parseDouble(binding.inputNumber.getText().toString());
+                binding.outputText.setText(String.format("$%.2f", CelsiusToFahrenheit(input)));
+            }
+        });
+
     }
 
     @Override
     public void onDestroyView() {
         super.onDestroyView();
         binding = null;
+    }
+    public double CelsiusToFahrenheit(double input){
+        return input*0.2;
     }
 
 }
