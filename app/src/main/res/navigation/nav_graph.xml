@@ -7,6 +7,11 @@
 
 
     <fragment
+        android:id="@+id/autoPathOneTwo"
+        android:name="com.example.sbupurple2022codeathon.AutoPathOneTwo"
+        android:label="@string/changeTire"
+        tools:layout="@layout/auto_path_one_two" />
+    <fragment
         android:id="@+id/healthPathFourOne"
         android:name="com.example.sbupurple2022codeathon.HealthPathFourOne"
         android:label="@string/empty"
@@ -67,7 +72,11 @@
         android:id="@+id/autoPathOneOne"
         android:name="com.example.sbupurple2022codeathon.AutoPathOneOne"
         android:label="@string/changeTire"
-        tools:layout="@layout/auto_path_one_one" />
+        tools:layout="@layout/auto_path_one_one" >
+        <action
+            android:id="@+id/action_autoPathOneOne_to_autoPathOneTwo"
+            app:destination="@id/autoPathOneTwo" />
+    </fragment>
     <fragment
         android:id="@+id/lifePathFourOne"
         android:name="com.example.sbupurple2022codeathon.LifePathFourOne"

@@ -29,13 +29,7 @@ public class LifeHome extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.buttonSecond.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NavHostFragment.findNavController(LifeHome.this)
-                        .navigate(R.id.action_LifeHome_to_FirstFragment);
-            }
-        });
+
         binding.pathOne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
