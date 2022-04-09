@@ -13,8 +13,24 @@
     <string name="next">Next</string>
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_third_fragment">Hello third fragment</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="empty">EMPTY</string>
+    <!-- Auto -->
+    <string name="changeTire">How to Change a Tire</string>
+    <string name="checkTire">How to Check Tire Pressure</string>
+    <string name="pumpGas">How to Pump Gas</string>
+    <!-- Conversions -->
+    <string name="CtoF">Celsius to Fahrenheit</string>
+    <string name="FtoC">Fahrenheit to Celsius</string>
+    <!-- Health -->
+    <string name="calmDown">How to Relax</string>
+    <string name="cpr">How to Perform CPR</string>
+    <string name="checkPulse">How to Check Your Pulse</string>
+    <!-- Life -->
+    <string name="tieTie">How to Tie a Tie</string>
+    <string name="makeCoffee">How to Make Coffee</string>
+    <string name="writeCheck">How to Write a Check</string>
+    <string name="home">Home</string>
+
 </resources>

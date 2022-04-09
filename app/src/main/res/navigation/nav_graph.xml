@@ -5,90 +5,93 @@
     android:id="@+id/nav_graph"
     app:startDestination="@id/FirstFragment">
 
+
     <fragment
         android:id="@+id/healthPathFourOne"
         android:name="com.example.sbupurple2022codeathon.HealthPathFourOne"
-        android:label="@string/second_fragment_label"
+        android:label="@string/empty"
         tools:layout="@layout/health_path_four_one" />
     <fragment
         android:id="@+id/healthPathThreeOne"
         android:name="com.example.sbupurple2022codeathon.HealthPathThreeOne"
-        android:label="@string/second_fragment_label"
+        android:label="@string/checkPulse"
         tools:layout="@layout/health_path_three_one" />
     <fragment
         android:id="@+id/healthPathTwoOne"
         android:name="com.example.sbupurple2022codeathon.HealthPathTwoOne"
-        android:label="@string/second_fragment_label"
+        android:label="@string/cpr"
         tools:layout="@layout/health_path_two_one" />
     <fragment
         android:id="@+id/healthPathOneOne"
         android:name="com.example.sbupurple2022codeathon.HealthPathOneOne"
-        android:label="@string/second_fragment_label"
+        android:label="@string/calmDown"
         tools:layout="@layout/health_path_one_one" />
     <fragment
         android:id="@+id/conversionPathFourOne"
         android:name="com.example.sbupurple2022codeathon.ConversionPathFourOne"
-        android:label="@string/second_fragment_label"
+        android:label="@string/empty"
         tools:layout="@layout/conversion_path_four_one" />
     <fragment
         android:id="@+id/conversionPathThreeOne"
         android:name="com.example.sbupurple2022codeathon.ConversionPathThreeOne"
-        android:label="@string/second_fragment_label"
+        android:label="@string/empty"
         tools:layout="@layout/conversion_path_three_one" />
     <fragment
         android:id="@+id/conversionPathTwoOne"
         android:name="com.example.sbupurple2022codeathon.ConversionPathTwoOne"
-        android:label="@string/second_fragment_label"
+        android:label="@string/FtoC"
         tools:layout="@layout/conversion_path_two_one" />
     <fragment
         android:id="@+id/conversionPathOneOne"
         android:name="com.example.sbupurple2022codeathon.ConversionPathOneOne"
-        android:label="@string/second_fragment_label"
-        tools:layout="@layout/conversion_path_one_one" />
+        android:label="@string/CtoF"
+        tools:layout="@layout/conversion_path_one_one" >
+
+    </fragment>
     <fragment
         android:id="@+id/autoPathFourOne"
         android:name="com.example.sbupurple2022codeathon.AutoPathFourOne"
-        android:label="@string/second_fragment_label"
+        android:label="@string/empty"
         tools:layout="@layout/auto_path_four_one" />
     <fragment
         android:id="@+id/autoPathThreeOne"
         android:name="com.example.sbupurple2022codeathon.AutoPathThreeOne"
-        android:label="@string/second_fragment_label"
+        android:label="@string/pumpGas"
         tools:layout="@layout/auto_path_three_one" />
     <fragment
         android:id="@+id/autoPathTwoOne"
         android:name="com.example.sbupurple2022codeathon.AutoPathTwoOne"
-        android:label="@string/second_fragment_label"
+        android:label="@string/checkTire"
         tools:layout="@layout/auto_path_two_one" />
     <fragment
         android:id="@+id/autoPathOneOne"
         android:name="com.example.sbupurple2022codeathon.AutoPathOneOne"
-        android:label="@string/second_fragment_label"
+        android:label="@string/changeTire"
         tools:layout="@layout/auto_path_one_one" />
     <fragment
         android:id="@+id/lifePathFourOne"
         android:name="com.example.sbupurple2022codeathon.LifePathFourOne"
-        android:label="@string/second_fragment_label"
+        android:label="@string/empty"
         tools:layout="@layout/life_path_four_one" />
     <fragment
         android:id="@+id/lifePathThreeOne"
         android:name="com.example.sbupurple2022codeathon.LifePathThreeOne"
-        android:label="@string/second_fragment_label"
+        android:label="@string/writeCheck"
         tools:layout="@layout/life_path_three_one" />
     <fragment
         android:id="@+id/lifePathTwoOne"
         android:name="com.example.sbupurple2022codeathon.LifePathTwoOne"
-        android:label="@string/second_fragment_label"
+        android:label="@string/makeCoffee"
         tools:layout="@layout/life_path_two_one" />
     <fragment
         android:id="@+id/lifePathOneOne"
         android:name="com.example.sbupurple2022codeathon.LifePathOneOne"
-        android:label="@string/second_fragment_label"
+        android:label="@string/tieTie"
         tools:layout="@layout/life_path_one_one"/>
     <fragment
         android:id="@+id/ConversionHome"
         android:name="com.example.sbupurple2022codeathon.ConversionHome"
-        android:label="@string/second_fragment_label"
+        android:label="@string/conversion"
         tools:layout="@layout/conversion_home">
         <action
             android:id="@+id/action_ConversionHome_to_FirstFragment"
@@ -109,7 +112,7 @@
     <fragment
         android:id="@+id/LifeHome"
         android:name="com.example.sbupurple2022codeathon.LifeHome"
-        android:label="@string/second_fragment_label"
+        android:label="@string/life"
         tools:layout="@layout/life_home">
         <action
             android:id="@+id/action_LifeHome_to_FirstFragment"
@@ -130,7 +133,7 @@
     <fragment
         android:id="@+id/AutoHome"
         android:name="com.example.sbupurple2022codeathon.AutoHome"
-        android:label="@string/second_fragment_label"
+        android:label="@string/auto"
         tools:layout="@layout/auto_home">
         <action
             android:id="@+id/action_AutoHome_to_FirstFragment"
@@ -151,7 +154,7 @@
     <fragment
         android:id="@+id/FirstFragment"
         android:name="com.example.sbupurple2022codeathon.FirstFragment"
-        android:label="@string/first_fragment_label"
+        android:label="@string/home"
         tools:layout="@layout/fragment_first">
 
         <action
@@ -170,7 +173,7 @@
     <fragment
         android:id="@+id/HealthHome"
         android:name="com.example.sbupurple2022codeathon.HealthHome"
-        android:label="@string/second_fragment_label"
+        android:label="@string/health"
         tools:layout="@layout/health_home">
         <action
             android:id="@+id/action_HealthHome_to_FirstFragment"

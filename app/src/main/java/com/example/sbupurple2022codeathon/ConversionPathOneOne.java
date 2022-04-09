@@ -36,6 +36,20 @@ public class ConversionPathOneOne extends Fragment {
                         .navigate(R.id.action_LifeHome_to_FirstFragment);
             }
         });
+        binding.cTof.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                double input = Double.parseDouble(binding.inputNumber.getText().toString());
+                binding.outputText.setText(""+CelsiusToFahrenheit(input));
+            }
+        });
+        binding.fToc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                double input = Double.parseDouble(binding.inputNumber.getText().toString());
+                binding.outputText.setText(""+FahrenheitToCelsius(input));
+            }
+        });
     }
 
     @Override
@@ -43,5 +57,10 @@ public class ConversionPathOneOne extends Fragment {
         super.onDestroyView();
         binding = null;
     }
-
+    public double CelsiusToFahrenheit(double input){
+        return (input*9.0)/5.0 + 32.0;
+    }
+    public double FahrenheitToCelsius(double input){
+        return ((input-32)*5.0)/9.0;
+    }
 }
