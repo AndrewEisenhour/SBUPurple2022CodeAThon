@@ -30,7 +30,7 @@
         android:id="@+id/pathOne"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Door #1"
+        android:text="Flat Tire"
         app:layout_constraintBottom_toTopOf="@+id/pathThree"
         app:layout_constraintEnd_toStartOf="@+id/pathTwo"
         app:layout_constraintStart_toStartOf="parent"

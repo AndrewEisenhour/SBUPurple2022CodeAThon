@@ -32,5 +32,17 @@
     <string name="makeCoffee">How to Make Coffee</string>
     <string name="writeCheck">How to Write a Check</string>
     <string name="home">Home</string>
+    <string name="step_3">Step 3:</string>
+    <string name="before_you_begin_jacking_the_car_loosen_but_do_not_take_off_completely_the_lug_nuts">Before you begin jacking the car, loosen–but do not take off completely–the lug nuts.</string>
+    <string name="find_and_retrieve_your_spare_tire_usually_under_a_cover_in_your_trunk_and_ensure_it_is_not_flat">Find and retrieve your spare tire (Usually under a cover in your trunk), and ensure it is not flat.</string>
+    <string name="step_1">Step 1:</string>
+    <string name="step_2">Step 2:</string>
+    <string name="find_and_retrieve_the_jack_usually_found_in_the_same_area_as_the_spare">Find and retrieve the jack (usually found in the same area as the spare).</string>
+    <string name="step_4">Step 4:</string>
+    <string name="place_the_jack_under_the_car_near_the_flat_tire_be_sure_to_place_it_under_a_good_part_of_the_frame_the_owner_s_manual_is_a_good_place_to_find_where_to_properly_place_the_jack_if_your_are_unsure">Place the jack under the car near the flat tire. Be sure to place it under a good part of the frame. The owner\'s manual is a good place to find where to properly place the jack if your are unsure.</string>
+    <string name="step_5">Step 5:</string>
+    <string name="raise_the_car_with_the_jack">Raise the car with the jack.</string>
+    <string name="step_6">Step 6:</string>
+    <string name="once_the_car_is_far_enough_off_the_ground_take_off_the_lug_nuts_completely_remove_the_flat_tire_and_set_it_somewhere_safe_and_out_of_the_way">Once the car is far enough off the ground, take off the lug nuts completely, remove the flat tire and set it somewhere safe and out of the way</string>
 
 </resources>

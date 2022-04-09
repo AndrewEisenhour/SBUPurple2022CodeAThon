@@ -19,24 +19,23 @@
         app:layout_constraintVertical_bias="0.918" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/StepFive"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="97dp"
-        android:layout_marginEnd="154dp"
-        android:text="@string/step_1"
-        android:textColor="@color/black"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="152dp"
+        android:text="@string/step_4"
+        android:textColor="#000000"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="397dp"
-        android:layout_height="195dp"
-        android:layout_marginTop="183dp"
-        android:layout_marginEnd="5dp"
-        android:text="@string/find_and_retrieve_your_spare_tire_usually_under_a_cover_in_your_trunk_and_ensure_it_is_not_flat"
+        android:layout_width="374dp"
+        android:layout_height="324dp"
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/place_the_jack_under_the_car_near_the_flat_tire_be_sure_to_place_it_under_a_good_part_of_the_frame_the_owner_s_manual_is_a_good_place_to_find_where_to_properly_place_the_jack_if_your_are_unsure"
         android:textColor="#000000"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"

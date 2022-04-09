@@ -19,24 +19,23 @@
         app:layout_constraintVertical_bias="0.918" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/StepFive"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="97dp"
-        android:layout_marginEnd="154dp"
-        android:text="@string/step_1"
-        android:textColor="@color/black"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="152dp"
+        android:text="@string/step_5"
+        android:textColor="#000000"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="397dp"
-        android:layout_height="195dp"
-        android:layout_marginTop="183dp"
-        android:layout_marginEnd="5dp"
-        android:text="@string/find_and_retrieve_your_spare_tire_usually_under_a_cover_in_your_trunk_and_ensure_it_is_not_flat"
+        android:layout_width="321dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="44dp"
+        android:text="@string/raise_the_car_with_the_jack"
         android:textColor="#000000"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"

@@ -67,7 +67,52 @@
         android:id="@+id/autoPathOneOne"
         android:name="com.example.sbupurple2022codeathon.AutoPathOneOne"
         android:label="@string/changeTire"
-        tools:layout="@layout/auto_path_one_one" />
+        tools:layout="@layout/auto_path_one_one" >
+        <action
+            android:id="@+id/action_autoPathOneOne_to_autoPathOneTwo"
+            app:destination="@id/autoPathOneTwo" />
+    </fragment>
+    <fragment
+        android:id="@+id/autoPathOneTwo"
+        android:name="com.example.sbupurple2022codeathon.AutoPathOneTwo"
+        android:label="@string/changeTire"
+        tools:layout="@layout/auto_path_one_two" >
+        <action
+            android:id="@+id/action_autoPathOneTwo_to_autoPathOneThree"
+            app:destination="@id/autoPathOneThree" />
+    </fragment>
+    <fragment
+        android:id="@+id/autoPathOneThree"
+        android:name="com.example.sbupurple2022codeathon.AutoPathOneThree"
+        android:label="@string/changeTire"
+        tools:layout="@layout/auto_path_one_three" >
+        <action
+            android:id="@+id/action_autoPathOneThree_to_autoPathOneFour"
+            app:destination="@id/autoPathOneFour" />
+    </fragment>
+    <fragment
+        android:id="@+id/autoPathOneFour"
+        android:name="com.example.sbupurple2022codeathon.AutoPathOneFour"
+        android:label="@string/changeTire"
+        tools:layout="@layout/auto_path_one_four" >
+        <action
+            android:id="@+id/action_autoPathOneFour_to_autoPathOneFive"
+            app:destination="@id/autoPathOneFive" />
+    </fragment>
+    <fragment
+        android:id="@+id/autoPathOneFive"
+        android:name="com.example.sbupurple2022codeathon.AutoPathOneFive"
+        android:label="@string/changeTire"
+        tools:layout="@layout/auto_path_one_five" >
+        <action
+            android:id="@+id/action_autoPathOneFive_to_autoPathOneSix"
+            app:destination="@id/autoPathOneSix" />
+    </fragment>
+    <fragment
+        android:id="@+id/autoPathOneSix"
+        android:name="com.example.sbupurple2022codeathon.AutoPathOneSix"
+        android:label="@string/changeTire"
+        tools:layout="@layout/auto_path_one_six" />
     <fragment
         android:id="@+id/lifePathFourOne"
         android:name="com.example.sbupurple2022codeathon.LifePathFourOne"
