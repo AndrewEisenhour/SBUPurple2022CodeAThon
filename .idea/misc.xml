@@ -4,13 +4,29 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/auto_home.xml" value="0.264" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/auto_path_four_one.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/auto_path_one_one.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/auto_path_three_one.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/auto_path_two_one.xml" value="0.20606884057971014" />
         <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/conversion_home.xml" value="0.264" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/conversion_path_four_one.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/conversion_path_one_one.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/conversion_path_three_one.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/conversion_path_two_one.xml" value="0.20606884057971014" />
         <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/fragment_auto.xml" value="0.20606884057971014" />
         <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/fragment_first.xml" value="0.25" />
         <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/fragment_second.xml" value="0.25" />
         <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/fragment_third.xml" value="0.25" />
         <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/health_home.xml" value="0.264" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/health_path_four_one.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/health_path_one_one.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/health_path_three_one.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/health_path_two_one.xml" value="0.20606884057971014" />
         <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/life_home.xml" value="0.264" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/life_path_four_one.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/life_path_one_one.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/life_path_three_one.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/life_path_two_one.xml" value="0.20606884057971014" />
         <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/menu/menu_main.xml" value="0.25" />
       </map>
     </option>

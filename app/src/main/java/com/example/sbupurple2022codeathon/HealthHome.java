@@ -36,6 +36,34 @@ public class HealthHome extends Fragment {
                         .navigate(R.id.action_HealthHome_to_FirstFragment);
             }
         });
+        binding.pathOne.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(HealthHome.this)
+                        .navigate(R.id.action_HealthHome_to_healthPathOneOne);
+            }
+        });
+        binding.pathTwo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(HealthHome.this)
+                        .navigate(R.id.action_HealthHome_to_healthPathTwoOne);
+            }
+        });
+        binding.pathThree.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(HealthHome.this)
+                        .navigate(R.id.action_HealthHome_to_healthPathThreeOne);
+            }
+        });
+        binding.pathFour.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(HealthHome.this)
+                        .navigate(R.id.action_HealthHome_to_healthPathFourOne);
+            }
+        });
     }
 
     @Override

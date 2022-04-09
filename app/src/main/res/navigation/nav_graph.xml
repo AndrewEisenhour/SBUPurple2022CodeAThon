@@ -6,6 +6,86 @@
     app:startDestination="@id/FirstFragment">
 
     <fragment
+        android:id="@+id/healthPathFourOne"
+        android:name="com.example.sbupurple2022codeathon.HealthPathFourOne"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/health_path_four_one" />
+    <fragment
+        android:id="@+id/healthPathThreeOne"
+        android:name="com.example.sbupurple2022codeathon.HealthPathThreeOne"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/health_path_three_one" />
+    <fragment
+        android:id="@+id/healthPathTwoOne"
+        android:name="com.example.sbupurple2022codeathon.HealthPathTwoOne"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/health_path_two_one" />
+    <fragment
+        android:id="@+id/healthPathOneOne"
+        android:name="com.example.sbupurple2022codeathon.HealthPathOneOne"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/health_path_one_one" />
+    <fragment
+        android:id="@+id/conversionPathFourOne"
+        android:name="com.example.sbupurple2022codeathon.ConversionPathFourOne"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/conversion_path_four_one" />
+    <fragment
+        android:id="@+id/conversionPathThreeOne"
+        android:name="com.example.sbupurple2022codeathon.ConversionPathThreeOne"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/conversion_path_three_one" />
+    <fragment
+        android:id="@+id/conversionPathTwoOne"
+        android:name="com.example.sbupurple2022codeathon.ConversionPathTwoOne"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/conversion_path_two_one" />
+    <fragment
+        android:id="@+id/conversionPathOneOne"
+        android:name="com.example.sbupurple2022codeathon.ConversionPathOneOne"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/conversion_path_one_one" />
+    <fragment
+        android:id="@+id/autoPathFourOne"
+        android:name="com.example.sbupurple2022codeathon.AutoPathFourOne"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/auto_path_four_one" />
+    <fragment
+        android:id="@+id/autoPathThreeOne"
+        android:name="com.example.sbupurple2022codeathon.AutoPathThreeOne"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/auto_path_three_one" />
+    <fragment
+        android:id="@+id/autoPathTwoOne"
+        android:name="com.example.sbupurple2022codeathon.AutoPathTwoOne"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/auto_path_two_one" />
+    <fragment
+        android:id="@+id/autoPathOneOne"
+        android:name="com.example.sbupurple2022codeathon.AutoPathOneOne"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/auto_path_one_one" />
+    <fragment
+        android:id="@+id/lifePathFourOne"
+        android:name="com.example.sbupurple2022codeathon.LifePathFourOne"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/life_path_four_one" />
+    <fragment
+        android:id="@+id/lifePathThreeOne"
+        android:name="com.example.sbupurple2022codeathon.LifePathThreeOne"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/life_path_three_one" />
+    <fragment
+        android:id="@+id/lifePathTwoOne"
+        android:name="com.example.sbupurple2022codeathon.LifePathTwoOne"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/life_path_two_one" />
+    <fragment
+        android:id="@+id/lifePathOneOne"
+        android:name="com.example.sbupurple2022codeathon.LifePathOneOne"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/life_path_one_one"/>
+    <fragment
         android:id="@+id/ConversionHome"
         android:name="com.example.sbupurple2022codeathon.ConversionHome"
         android:label="@string/second_fragment_label"
@@ -13,6 +93,18 @@
         <action
             android:id="@+id/action_ConversionHome_to_FirstFragment"
             app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_ConversionHome_to_conversionPathOneOne"
+            app:destination="@id/conversionPathOneOne" />
+        <action
+            android:id="@+id/action_ConversionHome_to_conversionPathTwoOne"
+            app:destination="@id/conversionPathTwoOne" />
+        <action
+            android:id="@+id/action_ConversionHome_to_conversionPathThreeOne"
+            app:destination="@id/conversionPathThreeOne" />
+        <action
+            android:id="@+id/action_ConversionHome_to_conversionPathFourOne"
+            app:destination="@id/conversionPathFourOne" />
     </fragment>
     <fragment
         android:id="@+id/LifeHome"
@@ -22,6 +114,18 @@
         <action
             android:id="@+id/action_LifeHome_to_FirstFragment"
             app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_LifeHome_to_lifePathOneOne"
+            app:destination="@id/lifePathOneOne" />
+        <action
+            android:id="@+id/action_LifeHome_to_lifePathTwoOne"
+            app:destination="@id/lifePathTwoOne" />
+        <action
+            android:id="@+id/action_LifeHome_to_lifePathThreeOne"
+            app:destination="@id/lifePathThreeOne" />
+        <action
+            android:id="@+id/action_LifeHome_to_lifePathFourOne"
+            app:destination="@id/lifePathFourOne" />
     </fragment>
     <fragment
         android:id="@+id/AutoHome"
@@ -31,6 +135,18 @@
         <action
             android:id="@+id/action_AutoHome_to_FirstFragment"
             app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_AutoHome_to_autoPathOneOne"
+            app:destination="@id/autoPathOneOne" />
+        <action
+            android:id="@+id/action_AutoHome_to_autoPathTwoOne"
+            app:destination="@id/autoPathTwoOne" />
+        <action
+            android:id="@+id/action_AutoHome_to_autoPathThreeOne"
+            app:destination="@id/autoPathThreeOne" />
+        <action
+            android:id="@+id/action_AutoHome_to_autoPathFourOne"
+            app:destination="@id/autoPathFourOne" />
     </fragment>
     <fragment
         android:id="@+id/FirstFragment"
@@ -59,6 +175,18 @@
         <action
             android:id="@+id/action_HealthHome_to_FirstFragment"
             app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_HealthHome_to_healthPathOneOne"
+            app:destination="@id/healthPathOneOne" />
+        <action
+            android:id="@+id/action_HealthHome_to_healthPathTwoOne"
+            app:destination="@id/healthPathTwoOne" />
+        <action
+            android:id="@+id/action_HealthHome_to_healthPathThreeOne"
+            app:destination="@id/healthPathThreeOne" />
+        <action
+            android:id="@+id/action_HealthHome_to_healthPathFourOne"
+            app:destination="@id/healthPathFourOne" />
     </fragment>
 
 </navigation>

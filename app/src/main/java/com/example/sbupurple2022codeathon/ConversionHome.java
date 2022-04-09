@@ -36,6 +36,34 @@ public class ConversionHome extends Fragment {
                         .navigate(R.id.action_ConversionHome_to_FirstFragment);
             }
         });
+        binding.pathOne.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(ConversionHome.this)
+                        .navigate(R.id.action_ConversionHome_to_conversionPathOneOne);
+            }
+        });
+        binding.pathTwo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(ConversionHome.this)
+                        .navigate(R.id.action_ConversionHome_to_conversionPathTwoOne);
+            }
+        });
+        binding.pathThree.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(ConversionHome.this)
+                        .navigate(R.id.action_ConversionHome_to_conversionPathThreeOne);
+            }
+        });
+        binding.pathFour.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(ConversionHome.this)
+                        .navigate(R.id.action_ConversionHome_to_conversionPathFourOne);
+            }
+        });
     }
 
     @Override

@@ -37,6 +37,34 @@ public class AutoHome extends Fragment {
                         .navigate(R.id.action_AutoHome_to_FirstFragment);
             }
         });
+        binding.pathOne.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(AutoHome.this)
+                        .navigate(R.id.action_AutoHome_to_autoPathOneOne);
+            }
+        });
+        binding.pathTwo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(AutoHome.this)
+                        .navigate(R.id.action_AutoHome_to_autoPathTwoOne);
+            }
+        });
+        binding.pathThree.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(AutoHome.this)
+                        .navigate(R.id.action_AutoHome_to_autoPathThreeOne);
+            }
+        });
+        binding.pathFour.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(AutoHome.this)
+                        .navigate(R.id.action_AutoHome_to_autoPathFourOne);
+            }
+        });
     }
 
     @Override
