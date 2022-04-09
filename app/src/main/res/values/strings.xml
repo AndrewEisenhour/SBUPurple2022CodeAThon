@@ -25,6 +25,8 @@
     <string name="FtoC">Fahrenheit to Celsius</string>
     <!-- Health -->
     <string name="calmDown">How to Relax</string>
+    <string name="countDownStart">start</string>
+    <string name="countDownReset">reset</string>
     <string name="cpr">How to Perform CPR</string>
     <string name="checkPulse">How to Check Your Pulse</string>
     <!-- Life -->
