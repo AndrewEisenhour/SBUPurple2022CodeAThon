@@ -29,12 +29,12 @@
     <fragment
         android:id="@+id/conversionPathFourOne"
         android:name="com.example.sbupurple2022codeathon.ConversionPathFourOne"
-        android:label="@string/empty"
+        android:label="@string/pounds_to_kilograms"
         tools:layout="@layout/conversion_path_four_one" />
     <fragment
         android:id="@+id/conversionPathThreeOne"
         android:name="com.example.sbupurple2022codeathon.ConversionPathThreeOne"
-        android:label="@string/empty"
+        android:label="@string/feet_to_inches"
         tools:layout="@layout/conversion_path_three_one" />
     <fragment
         android:id="@+id/conversionPathTwoOne"
@@ -63,55 +63,12 @@
         android:name="com.example.sbupurple2022codeathon.AutoPathTwoOne"
         android:label="@string/checkTire"
         tools:layout="@layout/auto_path_two_one" >
-        <action
-            android:id="@+id/action_autoPathTwoOne_to_autoPathTwoTwo"
-            app:destination="@id/autoPathTwoTwo" />
+
     </fragment>
-    <fragment
-        android:id="@+id/autoPathTwoTwo"
-        android:name="com.example.sbupurple2022codeathon.AutoPathTwoTwo"
-        android:label="@string/checkTire"
-        tools:layout="@layout/auto_path_two_two" >
-        <action
-            android:id="@+id/action_autoPathTwoTwo_to_autoPathTwoThree"
-            app:destination="@id/autoPathTwoThree" />
-    </fragment>
-    <fragment
-        android:id="@+id/autoPathTwoThree"
-        android:name="com.example.sbupurple2022codeathon.AutoPathTwoThree"
-        android:label="@string/checkTire"
-        tools:layout="@layout/auto_path_two_three" >
-        <action
-            android:id="@+id/action_autoPathTwoThree_to_autoPathTwoFour"
-            app:destination="@id/autoPathTwoFour" />
-    </fragment>
-    <fragment
-        android:id="@+id/autoPathTwoFour"
-        android:name="com.example.sbupurple2022codeathon.AutoPathTwoFour"
-        android:label="@string/checkTire"
-        tools:layout="@layout/auto_path_two_four" >
-        <action
-            android:id="@+id/action_autoPathTwoFour_to_autoPathTwoFive"
-            app:destination="@id/autoPathTwoFive" />
-    </fragment>
-    <fragment
-        android:id="@+id/autoPathTwoFive"
-        android:name="com.example.sbupurple2022codeathon.AutoPathTwoFive"
-        android:label="@string/checkTire"
-        tools:layout="@layout/auto_path_two_five" >
-        <action
-            android:id="@+id/action_autoPathTwoFive_to_autoPathTwoSix"
-            app:destination="@id/autoPathTwoSix" />
-    </fragment>
-    <fragment
-        android:id="@+id/autoPathTwoSix"
-        android:name="com.example.sbupurple2022codeathon.AutoPathTwoSix"
-        android:label="@string/checkTire"
-        tools:layout="@layout/auto_path_two_six" >
-        <action
-            android:id="@+id/action_autoPathTwoSix_to_AutoHome"
-            app:destination="@id/AutoHome" />
-    </fragment>
+
+
+
+
     <fragment
         android:id="@+id/autoPathOneOne"
         android:name="com.example.sbupurple2022codeathon.AutoPathOneOne"
@@ -212,7 +169,167 @@
         android:id="@+id/lifePathOneOne"
         android:name="com.example.sbupurple2022codeathon.LifePathOneOne"
         android:label="@string/tieTie"
-        tools:layout="@layout/life_path_one_one"/>
+        tools:layout="@layout/life_path_one_one">
+        <action
+            android:id="@+id/action_lifePathOneOne_to_lifePathOneOneOne"
+            app:destination="@id/lifePathOneOneOne" />
+        <action
+            android:id="@+id/action_lifePathOneOne_to_lifePathOneTwoOne"
+            app:destination="@id/lifePathOneTwoOne" />
+        <action
+            android:id="@+id/action_lifePathOneOne_to_LifeHome1"
+            app:destination="@id/LifeHome1" />
+    </fragment>
+    <fragment
+        android:id="@+id/lifePathOneOneOne"
+        android:name="com.example.sbupurple2022codeathon.LifePathOneOneOne"
+        android:label="@string/windsor1"
+        tools:layout="@layout/life_path_one_one_one">
+        <action
+            android:id="@+id/action_lifePathOneOneOne_to_lifePathOneOneTwo"
+            app:destination="@id/lifePathOneOneTwo" />
+        <action
+            android:id="@+id/action_lifePathOneOneOne_to_lifePathOneOne"
+            app:destination="@id/lifePathOneOne" />
+    </fragment>
+    <fragment
+        android:id="@+id/lifePathOneOneTwo"
+        android:name="com.example.sbupurple2022codeathon.LifePathOneOneTwo"
+        android:label="@string/windsor2"
+        tools:layout="@layout/life_path_one_one_two">
+        <action
+            android:id="@+id/action_lifePathOneOneTwo_to_lifePathOneOneThree"
+            app:destination="@id/lifePathOneOneThree" />
+        <action
+            android:id="@+id/action_lifePathOneOneTwo_to_lifePathOneOneOne"
+            app:destination="@id/lifePathOneOneOne" />
+        <action
+            android:id="@+id/action_lifePathOneOneTwo_to_lifePathOneOne2"
+            app:destination="@id/lifePathOneOne" />
+    </fragment>
+    <fragment
+        android:id="@+id/lifePathOneTwoOne"
+        android:name="com.example.sbupurple2022codeathon.LifePathOneTwoOne"
+        android:label="@string/windsor2"
+        tools:layout="@layout/life_path_one_two_one"/>
+    <fragment
+        android:id="@+id/lifePathOneOneThree"
+        android:name="com.example.sbupurple2022codeathon.LifePathOneOneThree"
+        android:label="@string/simpleKnot"
+        tools:layout="@layout/life_path_one_one_three">
+        <action
+            android:id="@+id/action_lifePathOneOneThree_to_lifePathOneOneFour"
+            app:destination="@id/lifePathOneOneFour" />
+        <action
+            android:id="@+id/action_lifePathOneOneThree_to_lifePathOneOneTwo"
+            app:destination="@id/lifePathOneOneTwo" />
+        <action
+            android:id="@+id/action_lifePathOneOneThree_to_lifePathOneOne"
+            app:destination="@id/lifePathOneOne" />
+    </fragment>
+    <fragment
+        android:id="@+id/lifePathOneOneFour"
+        android:name="com.example.sbupurple2022codeathon.LifePathOneOneFour"
+        android:label="@string/fourInHandKnot"
+        tools:layout="@layout/life_path_one_one_four">
+        <action
+            android:id="@+id/action_lifePathOneOneFour_to_lifePathOneOneFive"
+            app:destination="@id/lifePathOneOneFive" />
+        <action
+            android:id="@+id/action_lifePathOneOneFour_to_lifePathOneOneThree"
+            app:destination="@id/lifePathOneOneThree" />
+        <action
+            android:id="@+id/action_lifePathOneOneFour_to_lifePathOneOne"
+            app:destination="@id/lifePathOneOne" />
+    </fragment>
+    <fragment
+        android:id="@+id/lifePathOneOneFive"
+        android:name="com.example.sbupurple2022codeathon.LifePathOneOneFive"
+        android:label="@string/fourInHandKnot"
+        tools:layout="@layout/life_path_one_one_five">
+        <action
+            android:id="@+id/action_lifePathOneOneFive_to_lifePathOneOneSix"
+            app:destination="@id/lifePathOneOneSix" />
+        <action
+            android:id="@+id/action_lifePathOneOneFive_to_lifePathOneOneFour"
+            app:destination="@id/lifePathOneOneFour" />
+        <action
+            android:id="@+id/action_lifePathOneOneFive_to_lifePathOneOne"
+            app:destination="@id/lifePathOneOne" />
+    </fragment>
+    <fragment
+        android:id="@+id/lifePathOneOneSix"
+        android:name="com.example.sbupurple2022codeathon.LifePathOneOneSix"
+        android:label="@string/fourInHandKnot"
+        tools:layout="@layout/life_path_one_one_six">
+        <action
+            android:id="@+id/action_lifePathOneOneSix_to_lifePathOneOneSeven"
+            app:destination="@id/lifePathOneOneSeven" />
+        <action
+            android:id="@+id/action_lifePathOneOneSix_to_lifePathOneOneFive"
+            app:destination="@id/lifePathOneOneFive" />
+        <action
+            android:id="@+id/action_lifePathOneOneSix_to_lifePathOneOne"
+            app:destination="@id/lifePathOneOne" />
+    </fragment>
+    <fragment
+        android:id="@+id/lifePathOneOneSeven"
+        android:name="com.example.sbupurple2022codeathon.LifePathOneOneSeven"
+        android:label="@string/fourInHandKnot"
+        tools:layout="@layout/life_path_one_one_seven">
+        <action
+            android:id="@+id/action_lifePathOneOneSeven_to_lifePathOneOneEight"
+            app:destination="@id/lifePathOneOneEight" />
+        <action
+            android:id="@+id/action_lifePathOneOneSeven_to_lifePathOneOneSix"
+            app:destination="@id/lifePathOneOneSix" />
+        <action
+            android:id="@+id/action_lifePathOneOneSeven_to_lifePathOneOne"
+            app:destination="@id/lifePathOneOne" />
+    </fragment>
+    <fragment
+        android:id="@+id/lifePathOneOneEight"
+        android:name="com.example.sbupurple2022codeathon.LifePathOneOneEight"
+        android:label="@string/fourInHandKnot"
+        tools:layout="@layout/life_path_one_one_eight">
+        <action
+            android:id="@+id/action_lifePathOneOneEight_to_lifePathOneOneNine"
+            app:destination="@id/lifePathOneOneNine" />
+        <action
+            android:id="@+id/action_lifePathOneOneEight_to_lifePathOneOneSeven"
+            app:destination="@id/lifePathOneOneSeven" />
+        <action
+            android:id="@+id/action_lifePathOneOneEight_to_lifePathOneOne"
+            app:destination="@id/lifePathOneOne" />
+    </fragment>
+    <fragment
+        android:id="@+id/lifePathOneOneNine"
+        android:name="com.example.sbupurple2022codeathon.LifePathOneOneNine"
+        android:label="@string/fourInHandKnot"
+        tools:layout="@layout/life_path_one_one_nine">
+        <action
+            android:id="@+id/action_lifePathOneOneNine_to_lifePathOneOneTen"
+            app:destination="@id/lifePathOneOneTen" />
+        <action
+            android:id="@+id/action_lifePathOneOneNine_to_lifePathOneOneEight"
+            app:destination="@id/lifePathOneOneEight" />
+        <action
+            android:id="@+id/action_lifePathOneOneNine_to_lifePathOneOne"
+            app:destination="@id/lifePathOneOne" />
+    </fragment>
+    <fragment
+        android:id="@+id/lifePathOneOneTen"
+        android:name="com.example.sbupurple2022codeathon.LifePathOneOneTen"
+        android:label="@string/fourInHandKnot"
+        tools:layout="@layout/life_path_one_one_ten">
+        <action
+            android:id="@+id/action_lifePathOneOneTen_to_lifePathOneOneNine"
+            app:destination="@id/lifePathOneOneNine" />
+        <action
+            android:id="@+id/action_lifePathOneOneTen_to_lifePathOneOne"
+            app:destination="@id/lifePathOneOne" />
+    </fragment>
+
     <fragment
         android:id="@+id/ConversionHome"
         android:name="com.example.sbupurple2022codeathon.ConversionHome"
@@ -235,7 +352,7 @@
             app:destination="@id/conversionPathFourOne" />
     </fragment>
     <fragment
-        android:id="@+id/LifeHome"
+        android:id="@+id/LifeHome1"
         android:name="com.example.sbupurple2022codeathon.LifeHome"
         android:label="@string/life"
         tools:layout="@layout/life_home">
@@ -293,7 +410,7 @@
             app:destination="@id/ConversionHome" />
         <action
             android:id="@+id/action_FirstFragment_to_lifeHome"
-            app:destination="@id/LifeHome" />
+            app:destination="@id/LifeHome1" />
     </fragment>
     <fragment
         android:id="@+id/HealthHome"

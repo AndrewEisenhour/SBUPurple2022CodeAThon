@@ -37,6 +37,7 @@ public class LifeHome extends Fragment {
                         .navigate(R.id.action_LifeHome_to_lifePathOneOne);
             }
         });
+
         binding.pathTwo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -56,6 +57,13 @@ public class LifeHome extends Fragment {
             public void onClick(View view) {
                 NavHostFragment.findNavController(LifeHome.this)
                         .navigate(R.id.action_LifeHome_to_lifePathFourOne);
+            }
+        });
+        binding.pathFive.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(LifeHome.this)
+                        .navigate(R.id.action_LifeHome_to_FirstFragment);
             }
         });
     }

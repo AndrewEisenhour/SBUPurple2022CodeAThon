@@ -29,11 +29,11 @@ public class AutoPathOneFour extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.next.setOnClickListener(new View.OnClickListener() {
+        binding.LifeHome1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(AutoPathOneFour.this)
-                        .navigate(R.id.action_LifeHome_to_FirstFragment);
+                        .navigate(R.id.action_autoPathOneFour_to_autoPathOneFive);
             }
         });
     }

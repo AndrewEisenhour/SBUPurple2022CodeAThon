@@ -30,7 +30,7 @@ public class AutoPathOneSeven extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         binding.next.setOnClickListener(view1 -> NavHostFragment.findNavController(AutoPathOneSeven.this)
-                .navigate(R.id.action_LifeHome_to_FirstFragment));
+                .navigate(R.id.action_autoPathOneSeven_to_autoPathOneEight));
     }
 
     @Override

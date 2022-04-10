@@ -29,21 +29,21 @@ public class ConversionPathOneOne extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.next.setOnClickListener(new View.OnClickListener() {
+        /*binding.next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(ConversionPathOneOne.this)
                         .navigate(R.id.action_LifeHome_to_FirstFragment);
             }
-        });
-        binding.cTof.setOnClickListener(new View.OnClickListener() {
+        });*/
+        binding.LifeHome1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 double input = Double.parseDouble(binding.inputNumber.getText().toString());
                 binding.outputText.setText(""+CelsiusToFahrenheit(input));
             }
         });
-        binding.fToc.setOnClickListener(new View.OnClickListener() {
+        binding.FtoC.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 double input = Double.parseDouble(binding.inputNumber.getText().toString());
