@@ -9,11 +9,11 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import com.example.sbupurple2022codeathon.databinding.LifePathOneOneBinding;
+import com.example.sbupurple2022codeathon.databinding.LifePathOneOneThreeBinding;
 
-public class LifePathOneOne extends Fragment {
+public class LifePathOneOneThree extends Fragment {
 
-    private LifePathOneOneBinding binding;
+    private LifePathOneOneThreeBinding binding;
 
     @Override
     public View onCreateView(
@@ -21,7 +21,7 @@ public class LifePathOneOne extends Fragment {
             Bundle savedInstanceState
     ) {
 
-        binding = LifePathOneOneBinding.inflate(inflater, container, false);
+        binding = LifePathOneOneThreeBinding.inflate(inflater, container, false);
         return binding.getRoot();
 
     }
@@ -29,28 +29,27 @@ public class LifePathOneOne extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.LifeHome1.setOnClickListener(new View.OnClickListener() {
+        binding.next3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                NavHostFragment.findNavController(LifePathOneOne.this)
-                        .navigate(R.id.action_lifePathOneOne_to_LifeHome1);
+                NavHostFragment.findNavController(LifePathOneOneThree.this)
+                        .navigate(R.id.action_lifePathOneOneThree_to_lifePathOneOneFour);
             }
         });
-        binding.tieOne.setOnClickListener(new View.OnClickListener() {
+        binding.back5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                NavHostFragment.findNavController(LifePathOneOne.this)
-                        .navigate(R.id.action_lifePathOneOne_to_lifePathOneOneOne);
+                NavHostFragment.findNavController(LifePathOneOneThree.this)
+                        .navigate(R.id.action_lifePathOneOneThree_to_lifePathOneOneTwo);
             }
         });
-        binding.tieTwo.setOnClickListener(new View.OnClickListener() {
+        binding.tiehome2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                NavHostFragment.findNavController(LifePathOneOne.this)
-                        .navigate(R.id.action_lifePathOneOne_to_lifePathOneTwoOne);
+                NavHostFragment.findNavController(LifePathOneOneThree.this)
+                        .navigate(R.id.action_lifePathOneOneThree_to_lifePathOneOne);
             }
         });
-
     }
 
     @Override
