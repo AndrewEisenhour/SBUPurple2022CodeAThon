@@ -25,15 +25,63 @@
     <string name="FtoC">Fahrenheit to Celsius</string>
     <!-- Health -->
     <string name="calmDown">How to Relax</string>
+    <string name="countDownStart">start</string>
+    <string name="countDownReset">reset</string>
+
     <string name="cpr">How to Perform CPR</string>
     <string name="checkPulse">How to Check Your Pulse</string>
     <!-- Life -->
     <string name="tieTie">How to Tie a Tie</string>
     <string name="makeCoffee">How to Make Coffee</string>
     <string name="writeCheck">How to Write a Check</string>
+    <string name="home">TrueClues</string>
+    <string name="lifePathFour">Calculate a Tip</string>
+    <string name="lifePathThree">Write a Check</string>
+    <string name="lifePathTwo">Make Coffee</string>
+    <string name="lifePathOne">Tie a Tie</string>
+    <string name="lifeTitle">General Life Essentials</string>
+    <string name="step_03">Step 3:</string>
+    <string name="before_you_begin_jacking_the_car_loosen_but_do_not_take_off_completely_the_lug_nuts">Before you begin jacking the car, loosen–but do not take off completely–the lug nuts.</string>
+    <string name="find_and_retrieve_your_spare_tire_usually_under_a_cover_in_your_trunk_and_ensure_it_is_not_flat">Find and retrieve your spare tire (Usually under a cover in your trunk), and ensure it is not flat.</string>
+    <string name="step_01">Step 1:</string>
+    <string name="step_02">Step 2:</string>
+    <string name="find_and_retrieve_the_jack_usually_found_in_the_same_area_as_the_spare">Find and retrieve the jack (usually found in the same area as the spare).</string>
+    <string name="step_04">Step 4:</string>
+    <string name="place_the_jack_under_the_car_near_the_flat_tire_be_sure_to_place_it_under_a_good_part_of_the_frame_the_owner_s_manual_is_a_good_place_to_find_where_to_properly_place_the_jack_if_your_are_unsure">Place the jack under the car near the flat tire. Be sure to place it under a good part of the frame. The owner\'s manual is a good place to find where to properly place the jack if your are unsure.</string>
+    <string name="step_05">Step 5:</string>
+    <string name="raise_the_car_with_the_jack">Raise the car with the jack.</string>
+    <string name="step_6">Step 6:</string>
+    <string name="once_the_car_is_far_enough_off_the_ground_take_off_the_lug_nuts_completely_remove_the_flat_tire_and_set_it_somewhere_safe_and_out_of_the_way">Once the car is far enough off the ground, take off the lug nuts completely, remove the flat tire and set it somewhere safe and out of the way</string>
+    <string name="step_7">Step 7:</string>
+    <string name="place_the_spare_tire_on_the_newly_vacant_axel_and_begin_tightening_on_the_lug_nuts_get_them_as_tight_as_you_can_without_too_much_force">Place the spare tire on the newly vacant axel, and begin tightening on the lug nuts. Get them as tight as you can without too much force.</string>
+    <string name="step_8">Step 8:</string>
+    <string name="lower_the_car_and_remove_the_jack">Lower the car, and remove the jack.</string>
+    <string name="final_step">Final Step</string>
+    <string name="tighten_the_lug_nuts_the_rest_of_the_way_and_place_everything_back_in_its_place">Tighten the lug nuts the rest of the way, and place everything back in its place.</string>
+    <string name="finalStep">Final Step:</string>
+    <string name="auto_home2">Auto Home</string>
+    <string name="tighten_lug_nuts_then_put_all_tools_back_where_they_came_from">Tighten lug nuts, then put all tools back where they came from.</string>
+    <string name="step_1">Step 1:</string>
+    <string name="find_the_gas_tank_on_your_car_and_remove_the_gas_tank_cap">Find the gas tank on your car, and remove the gas tank cap.</string>
+    <string name="step_2">Step 2:</string>
+    <string name="insert_your_credit_card_and_wait_until_the_system_tells_you_to_remove_it_you_may_need_to_enter_your_zip_code_so_be_sure_you_know_what_that_is">Insert your credit card, and wait until the system tells you to remove it (you may need to enter your zip code so be sure you know what that is).</string>
+    <string name="step_3">Step 3:</string>
+    <string name="remove_the_nozzle_then_select_the_grade">Remove the nozzle, then select the grade.</string>
+    <string name="step_4">Step 4:</string>
+    <string name="place_the_nozzle_in_the_gas_tank_pull_the_trigger_and_lock_it_into_place">Place the nozzle in the gas tank, pull the trigger and lock it into place.</string>
+    <string name="step_5">Step 5:</string>
+    <string name="it_will_automatically_stop_fueling_once_the_tank_is_full_when_this_happens_remove_the_nozzle_from_the_tank_and_place_it_back_where_you_found_it">It will automatically stop fueling once the tank is full. When this happens, remove the nozzle from the tank and place it back where you found it.</string>
+    <string name="final_step2">Final Step:</string>
+    <string name="place_the_gas_cap_back_on_the_tank_and_collect_receipt">Place the gas cap back on the tank, and collect receipt.</string>
+    <string name="screw_the_gas_cap_back_on_the_tank_and_collect_receipt">Screw the gas cap back on the tank, and collect receipt.</string>
+    <string name="auto_home">Auto Home</string>
+    <string name="flat_tire">Flat Tire</string>
+    <string name="pump_gas">Pump Gas</string>
+    <string name="door_3">Door #3</string>
+    <string name="door_4">Door #4</string>
     <string name="home">Home</string>
     <string name="textview">TextView</string>
-    
+
     <string name="feet_to_inches">Feet to Inches</string>
     <string name="enter_height_in_inches">Enter height in inches:</string>
     <string name="enter_height_in_feet">Enter height in feet:</string>
