@@ -54,9 +54,9 @@
     <string name="Step5">Step 5</string>
     <string name="Step6">Step 6</string>
     <string name="Step7">Step 7</string>
-    <string name="Step8">Step 9</string>
-    <string name="Step9">Step 10</string>
-    <string name="Step10">Step 11</string>
+    <string name="Step8">Step 8</string>
+    <string name="Step9">Step 9</string>
+    <string name="Step10">Step 10</string>
     <string name="Step11">Step 12</string>
     <string name="windsor1">Half Windsor</string>
     <string name="windsor11">Drape the tie around your neck with the wide end about 12 inches below the narrow end.</string>
@@ -112,7 +112,7 @@
     <string name="pump_gas">Pump Gas</string>
     <string name="door_3">Door #3</string>
     <string name="door_4">Door #4</string>
-    <string name="home">Home</string>
+
     <string name="textview">TextView</string>
 
     <string name="feet_to_inches">Feet to Inches</string>

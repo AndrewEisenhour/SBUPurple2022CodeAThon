@@ -38,20 +38,34 @@
         <entry key="app/src/main/res/layout/life_path_one_two_one.xml" value="0.2223731884057971" />
         <entry key="app/src/main/res/layout/life_path_three_one.xml" value="0.2223731884057971" />
         <entry key="app/src/main/res/layout/life_path_two_one.xml" value="0.2223731884057971" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/health_home.xml" value="0.264" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/health_path_four_one.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/health_path_one_one.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/health_path_three_one.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/health_path_two_one.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/life_home.xml" value="0.264" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/life_path_four_one.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/life_path_one_one.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/life_path_one_one_five.xml" value="0.25" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/life_path_one_one_four.xml" value="0.25" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/life_path_one_one_one.xml" value="0.264" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/life_path_one_one_six.xml" value="0.25" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/life_path_one_one_ten.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/life_path_one_one_three.xml" value="0.25" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/life_path_one_one_two.xml" value="0.25" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/life_path_one_two_one.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/life_path_three_one.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/layout/life_path_two_one.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/menu/menu_main.xml" value="0.25" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.121" />
+        <entry key="..\:/Users/aseis/AndroidStudioProjects/SBUPurple2022CodeAThon/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.121" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
-  </component>
-  <component name="VisualizationToolProject">
-    <option name="state">
-      <ProjectState>
-        <option name="scale" value="0.22327898550724637" />
-      </ProjectState>
-    </option>
   </component>
 </project>

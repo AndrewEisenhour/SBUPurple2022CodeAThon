@@ -11,6 +11,43 @@
         tools:layout_editor_absoluteX="79dp"
         tools:layout_editor_absoluteY="0dp">
 
+        <TextView
+            android:id="@+id/step1Tie5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:text="@string/Step6"
+            app:layout_constraintBottom_toTopOf="@+id/des1tie"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/des1tie5"
+            android:layout_width="329dp"
+            android:layout_height="33dp"
+            android:text="@string/windsor16"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/step1Tie5"
+            app:layout_constraintVertical_bias="0.063" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/windsor1"
+            app:layout_constraintBottom_toTopOf="@+id/Next"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.027" />
+
         <Button
             android:id="@+id/tiehome2"
             android:layout_width="wrap_content"
