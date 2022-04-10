@@ -28,6 +28,7 @@
     <!-- Health -->
     <string name="calmDown">How to Relax</string>
     <string name="instructions">Breathe in</string>
+    <string name="Pulse">Pulse</string>
     <string name="countDownStart">start</string>
     <string name="countDownReset">reset</string>
 
