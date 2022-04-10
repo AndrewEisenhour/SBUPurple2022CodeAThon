@@ -29,11 +29,28 @@ public class ConversionPathTwoOne extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.next.setOnClickListener(new View.OnClickListener() {
+        /*binding.next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                NavHostFragment.findNavController(ConversionPathTwoOne.this)
+                NavHostFragment.findNavController(ConversionPathOneOne.this)
                         .navigate(R.id.action_LifeHome_to_FirstFragment);
+            }
+        });*/
+        binding.tipCalculator.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                double input1 = Double.parseDouble(binding.inputBill.getText().toString());
+                double input2 = Double.parseDouble(binding.inputTip.getText().toString());
+                binding.tipAmount.setText(""+CalculatingTip(input1, input2));
+            }
+        });
+        binding.totalBill.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                double input1 = Double.parseDouble(binding.inputBill.getText().toString());
+                double input2 = Double.parseDouble(binding.inputTip.getText().toString());
+                double total = (input1 + CalculatingTip(input1, input2));
+                binding.outputTotal.setText(""+ total);
             }
         });
     }
@@ -42,6 +59,9 @@ public class ConversionPathTwoOne extends Fragment {
     public void onDestroyView() {
         super.onDestroyView();
         binding = null;
+    }
+    public double CalculatingTip(double input1, double input2){
+        return input1*(input2/100);
     }
 
 }

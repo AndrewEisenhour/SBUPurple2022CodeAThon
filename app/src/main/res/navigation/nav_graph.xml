@@ -29,12 +29,12 @@
     <fragment
         android:id="@+id/conversionPathFourOne"
         android:name="com.example.sbupurple2022codeathon.ConversionPathFourOne"
-        android:label="@string/empty"
+        android:label="@string/pounds_to_kilograms"
         tools:layout="@layout/conversion_path_four_one" />
     <fragment
         android:id="@+id/conversionPathThreeOne"
         android:name="com.example.sbupurple2022codeathon.ConversionPathThreeOne"
-        android:label="@string/empty"
+        android:label="@string/feet_to_inches"
         tools:layout="@layout/conversion_path_three_one" />
     <fragment
         android:id="@+id/conversionPathTwoOne"
@@ -62,7 +62,13 @@
         android:id="@+id/autoPathTwoOne"
         android:name="com.example.sbupurple2022codeathon.AutoPathTwoOne"
         android:label="@string/checkTire"
-        tools:layout="@layout/auto_path_two_one" />
+        tools:layout="@layout/auto_path_two_one" >
+
+    </fragment>
+
+
+
+
     <fragment
         android:id="@+id/autoPathOneOne"
         android:name="com.example.sbupurple2022codeathon.AutoPathOneOne"
@@ -112,7 +118,38 @@
         android:id="@+id/autoPathOneSix"
         android:name="com.example.sbupurple2022codeathon.AutoPathOneSix"
         android:label="@string/changeTire"
-        tools:layout="@layout/auto_path_one_six" />
+        tools:layout="@layout/auto_path_one_six" >
+        <action
+            android:id="@+id/action_autoPathOneSix_to_autoPathOneSeven"
+            app:destination="@id/autoPathOneSeven" />
+    </fragment>
+    <fragment
+        android:id="@+id/autoPathOneSeven"
+        android:name="com.example.sbupurple2022codeathon.AutoPathOneSeven"
+        android:label="@string/changeTire"
+        tools:layout="@layout/auto_path_one_seven" >
+        <action
+            android:id="@+id/action_autoPathOneSeven_to_autoPathOneEight"
+            app:destination="@id/autoPathOneEight" />
+    </fragment>
+    <fragment
+        android:id="@+id/autoPathOneEight"
+        android:name="com.example.sbupurple2022codeathon.AutoPathOneEight"
+        android:label="@string/changeTire"
+        tools:layout="@layout/auto_path_one_eight" >
+        <action
+            android:id="@+id/action_autoPathOneEight_to_autoPathOneNine"
+            app:destination="@id/autoPathOneNine" />
+    </fragment>
+    <fragment
+        android:id="@+id/autoPathOneNine"
+        android:name="com.example.sbupurple2022codeathon.AutoPathOneNine"
+        android:label="@string/changeTire"
+        tools:layout="@layout/auto_path_one_nine" >
+        <action
+            android:id="@+id/action_autoPathOneNine_to_AutoHome"
+            app:destination="@id/AutoHome" />
+    </fragment>
     <fragment
         android:id="@+id/lifePathFourOne"
         android:name="com.example.sbupurple2022codeathon.LifePathFourOne"
