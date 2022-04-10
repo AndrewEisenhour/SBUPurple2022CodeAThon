@@ -24,6 +24,7 @@
         android:text="@string/windsor1"
         app:layout_constraintBottom_toTopOf="@+id/Next"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.027" />
@@ -35,7 +36,7 @@
         android:text="@string/Step1"
         app:layout_constraintBottom_toTopOf="@+id/Des1tie1"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.086"
+        app:layout_constraintVertical_bias="0.525"
         tools:layout_editor_absoluteX="185dp" />
 
     <TextView
@@ -45,9 +46,10 @@
         android:text="@string/windsor11"
         app:layout_constraintBottom_toTopOf="@+id/Next"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.112" />
+        app:layout_constraintVertical_bias="0.11" />
 
     <Button
         android:id="@+id/Back"
