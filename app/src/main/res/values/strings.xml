@@ -32,5 +32,24 @@
     <string name="makeCoffee">How to Make Coffee</string>
     <string name="writeCheck">How to Write a Check</string>
     <string name="home">Home</string>
+    <string name="textview">TextView</string>
+    
+    <string name="feet_to_inches">Feet to Inches</string>
+    <string name="enter_height_in_inches">Enter height in inches:</string>
+    <string name="enter_height_in_feet">Enter height in feet:</string>
+    <string name="enter_pounds">Enter pounds:</string>
+    <string name="pounds_to_kilograms">Pounds to Kilograms</string>
+    <string name="enter_temperature">Enter temperature:</string>
+    <string name="Ftinconversion">conversion:</string>
+    <string name="Result">TextView</string>
+    <string name="result">Result:</string>
+    <string name="farenheit_to_celcius">Farenheit to Celcius</string>
+    <string name="celius_to_farenheit">Celius to Farenheit</string>
+    <string name="tip_calculator">Tip Calculator</string>
+    <string name="total_bill">Total Bill:</string>
+    <string name="enter_tip">enter tip %:</string>
+    <string name="total">Total</string>
+    <string name="tip_amount">Tip Amount:</string>
+    <string name="enter_bill_amount">enter bill amount:</string>
 
 </resources>

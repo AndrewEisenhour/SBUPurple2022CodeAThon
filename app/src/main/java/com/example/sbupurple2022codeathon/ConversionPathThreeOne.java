@@ -4,6 +4,9 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -14,6 +17,10 @@ import com.example.sbupurple2022codeathon.databinding.ConversionPathThreeOneBind
 public class ConversionPathThreeOne extends Fragment {
 
     private ConversionPathThreeOneBinding binding;
+    EditText num1;
+    EditText num2;
+    //Btn FeetToInches;
+    TextView conversion;
 
     @Override
     public View onCreateView(
@@ -29,11 +36,12 @@ public class ConversionPathThreeOne extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.next.setOnClickListener(new View.OnClickListener() {
+        binding.FeetToInches.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                NavHostFragment.findNavController(ConversionPathThreeOne.this)
-                        .navigate(R.id.action_LifeHome_to_FirstFragment);
+                double input1 = Double.parseDouble(binding.inputheightft.getText().toString());
+                double input2 = Double.parseDouble(binding.inputheightin.getText().toString());
+                binding.outputHeightinInches.setText(""+FeettoInches(input1, input2));
             }
         });
     }
@@ -43,5 +51,7 @@ public class ConversionPathThreeOne extends Fragment {
         super.onDestroyView();
         binding = null;
     }
-
+    public double FeettoInches(double input1, double input2){
+        return (input1*12) + input2;
+    }
 }

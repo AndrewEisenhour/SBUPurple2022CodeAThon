@@ -29,12 +29,12 @@
     <fragment
         android:id="@+id/conversionPathFourOne"
         android:name="com.example.sbupurple2022codeathon.ConversionPathFourOne"
-        android:label="@string/empty"
+        android:label="@string/pounds_to_kilograms"
         tools:layout="@layout/conversion_path_four_one" />
     <fragment
         android:id="@+id/conversionPathThreeOne"
         android:name="com.example.sbupurple2022codeathon.ConversionPathThreeOne"
-        android:label="@string/empty"
+        android:label="@string/feet_to_inches"
         tools:layout="@layout/conversion_path_three_one" />
     <fragment
         android:id="@+id/conversionPathTwoOne"

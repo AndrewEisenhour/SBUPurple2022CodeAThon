@@ -5,13 +5,46 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/next"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/next"
+    <TextView
+        android:id="@+id/outputText2"
+        android:layout_width="160dp"
+        android:layout_height="62dp"
+        android:text="@string/result"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PtoKilo" />
+
+    <Button
+        android:id="@+id/PtoKilo"
+        android:layout_width="214dp"
+        android:layout_height="105dp"
+        android:backgroundTint="#7B9EA8"
+        android:hint="@string/pounds_to_kilograms"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.554" />
+
+    <EditText
+        android:id="@+id/inputPounds"
+        android:layout_width="219dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="112dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/enter_pounds"
+        android:inputType="numberDecimal"
+        android:textColorHint="#000000"
+        android:textSize="24sp"
+
+        app:layout_constraintBottom_toTopOf="@+id/PtoKilo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
