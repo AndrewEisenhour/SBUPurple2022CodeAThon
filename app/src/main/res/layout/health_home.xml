@@ -36,7 +36,7 @@
         android:id="@+id/pathOne"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:text="Door #1"
+        android:text="@string/calmDown"
         android:backgroundTint="#C98686"
         app:layout_constraintBottom_toTopOf="@+id/pathThree"
         app:layout_constraintEnd_toStartOf="@+id/pathTwo"
@@ -50,10 +50,10 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginTop="132dp"
-        android:text="Door #2"
+        android:text="@string/checkPulse"
 
         android:backgroundTint="#C98686"
-        app:layout_constraintBottom_toTopOf="@+id/pathFour"
+
 
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.611"
@@ -64,8 +64,8 @@
         android:id="@+id/pathThree"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:text="Door #3"
-
+        android:text="@string/cpr"
+        android:backgroundTint="#C98686"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.149"

@@ -46,8 +46,8 @@ public class HealthPathOneOne extends Fragment  {
                 b.startTimer();
                 //binding.buttonStartPause.setText("hello");
             }
-        });
-        class breathTimer extends AppCompatActivity {
+        });}
+        public class breathTimer extends AppCompatActivity {
             private static final long START_TIME_IN_MILLIS = 19000;
 
             private TextView mTextViewCountDown;
@@ -61,7 +61,12 @@ public class HealthPathOneOne extends Fragment  {
             private boolean mTimerRunning;
 
             private long mTimeLeftInMillis = START_TIME_IN_MILLIS;
-
+            public breathTimer(TextView text, Button start, Button reset, TextView instructions){
+                mTextViewInstructions = instructions;
+                mButtonReset = reset;
+                mButtonStartPause = start;
+                mTextViewCountDown = text;
+            }
             @Override
             protected void onCreate(Bundle savedInstanceState) {
                 super.onCreate(savedInstanceState);
@@ -142,13 +147,13 @@ public class HealthPathOneOne extends Fragment  {
             }
             private void timeCheck(){
                 if(mTimeLeftInMillis <= 8000){
-                    mTextViewInstructions.setText("Hold Breath");
-                }else if(mTimeLeftInMillis <= 15000 && mTimeLeftInMillis > 8000){
                     mTextViewInstructions.setText("Breath Out");
+                }else if(mTimeLeftInMillis <= 15000 && mTimeLeftInMillis > 8000){
+                    mTextViewInstructions.setText("Hold Breath");
                 }
             }
         }
-    }
+
     @Override
     public void onDestroyView() {
         super.onDestroyView();
