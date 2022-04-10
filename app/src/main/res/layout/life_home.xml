@@ -10,26 +10,28 @@
         android:id="@+id/pathOne"
         android:layout_width="127dp"
         android:layout_height="127dp"
-        android:text="@string/lifePathOne"
         android:backgroundTint="#253237"
+        android:text="@string/lifePathOne"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/pathTwo"
-        app:layout_constraintHorizontal_bias="0.605"
+        app:layout_constraintHorizontal_bias="0.608"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43" />
 
     <Button
         android:id="@+id/pathTwo"
 
         android:layout_width="127dp"
         android:layout_height="127dp"
-        android:text="@string/lifePathTwo"
         android:backgroundTint="#253237"
+        android:text="@string/lifePathTwo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.354"
+        app:layout_constraintHorizontal_bias="0.387"
         app:layout_constraintStart_toEndOf="@+id/pathThree"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43" />
 
     <Button
         android:id="@+id/pathThree"

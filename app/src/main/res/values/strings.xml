@@ -17,6 +17,7 @@
     <string name="hello_third_fragment">Hello third fragment</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="empty">EMPTY</string>
+    <string name="blank"></string>
     <!-- Auto -->
     <string name="changeTire">How to Change a Tire</string>
     <string name="checkTire">How to Check Tire Pressure</string>
