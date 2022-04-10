@@ -29,19 +29,30 @@ public class ConversionPathFourOne extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.next.setOnClickListener(new View.OnClickListener() {
+        /*binding.next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                NavHostFragment.findNavController(ConversionPathFourOne.this)
+                NavHostFragment.findNavController(ConversionPathOneOne.this)
                         .navigate(R.id.action_LifeHome_to_FirstFragment);
             }
+        });*/
+        binding.PtoKilo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                double input = Double.parseDouble(binding.inputPounds.getText().toString());
+                binding.outputText2.setText(""+PoundToKilogram(input));
+            }
         });
+
     }
 
     @Override
     public void onDestroyView() {
         super.onDestroyView();
         binding = null;
+    }
+    public double PoundToKilogram(double input){
+        return (input*0.45359237);
     }
 
 }
