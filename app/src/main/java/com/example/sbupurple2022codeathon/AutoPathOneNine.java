@@ -9,11 +9,11 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import com.example.sbupurple2022codeathon.databinding.AutoPathOneTwoBinding;
+import com.example.sbupurple2022codeathon.databinding.AutoPathOneNineBinding;
 
-public class AutoPathOneTwo extends Fragment {
+public class AutoPathOneNine extends Fragment {
 
-    private AutoPathOneTwoBinding binding;
+    private AutoPathOneNineBinding binding;
 
     @Override
     public View onCreateView(
@@ -21,7 +21,7 @@ public class AutoPathOneTwo extends Fragment {
             Bundle savedInstanceState
     ) {
 
-        binding = AutoPathOneTwoBinding.inflate(inflater, container, false);
+        binding = AutoPathOneNineBinding.inflate(inflater, container, false);
         return binding.getRoot();
 
     }
@@ -32,8 +32,8 @@ public class AutoPathOneTwo extends Fragment {
         binding.next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                NavHostFragment.findNavController(AutoPathOneTwo.this)
-                        .navigate(R.id.action_autoPathOneTwo_to_autoPathOneThree);
+                NavHostFragment.findNavController(AutoPathOneNine.this)
+                        .navigate(R.id.action_autoPathOneNine_to_AutoHome);
             }
         });
     }
