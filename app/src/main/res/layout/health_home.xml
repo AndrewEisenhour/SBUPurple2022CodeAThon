@@ -24,6 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/previous"
+        android:backgroundTint="#DDEDAA"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.826"
@@ -36,6 +37,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:text="Door #1"
+        android:backgroundTint="#C98686"
         app:layout_constraintBottom_toTopOf="@+id/pathThree"
         app:layout_constraintEnd_toStartOf="@+id/pathTwo"
         app:layout_constraintHorizontal_bias="0.392"
@@ -49,6 +51,10 @@
         android:layout_height="150dp"
         android:layout_marginTop="132dp"
         android:text="Door #2"
+
+        android:backgroundTint="#C98686"
+        app:layout_constraintBottom_toTopOf="@+id/pathFour"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.611"
         app:layout_constraintStart_toEndOf="@+id/pathThree"
@@ -59,6 +65,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:text="Door #3"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.149"

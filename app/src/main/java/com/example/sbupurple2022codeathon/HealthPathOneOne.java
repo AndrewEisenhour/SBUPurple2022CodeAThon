@@ -15,6 +15,8 @@ import androidx.navigation.fragment.NavHostFragment;
 
 import com.example.sbupurple2022codeathon.databinding.HealthPathOneOneBinding;
 
+import org.w3c.dom.Text;
+
 import java.util.Locale;
 
 public class HealthPathOneOne extends Fragment  {
@@ -37,11 +39,12 @@ public class HealthPathOneOne extends Fragment  {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.next.setOnClickListener(new View.OnClickListener() {
+        binding.buttonStartPause.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                NavHostFragment.findNavController(HealthPathOneOne.this)
-                        .navigate(R.id.action_LifeHome_to_FirstFragment);
+                breathTimer b = new breathTimer(view.findViewById(R.id.text_view_countdown), view.findViewById(R.id.button_start_pause), view.findViewById(R.id.button_reset), view.findViewById(R.id.text_view_instructions));
+                b.startTimer();
+                //binding.buttonStartPause.setText("hello");
             }
         });
         class breathTimer extends AppCompatActivity {
@@ -53,6 +56,7 @@ public class HealthPathOneOne extends Fragment  {
             private TextView mTextViewInstructions;
 
             private CountDownTimer mCountDownTimer;
+
 
             private boolean mTimerRunning;
 
@@ -76,6 +80,7 @@ public class HealthPathOneOne extends Fragment  {
                         } else {
                             startTimer();
                         }
+
                     }
                 });
 

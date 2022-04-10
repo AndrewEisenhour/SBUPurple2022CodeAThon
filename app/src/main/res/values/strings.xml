@@ -9,13 +9,15 @@
     <string name="conversion">Conversions</string>
     <string name="previous">Home</string>
     <string name="life">Life</string>
+    <string name="tie_tieing_greet">How to Tie a Tie</string>
     <string name="auto">Auto</string>
     <string name="next">Next</string>
-    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_first_fragment">Welcome to TrueClues!</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="hello_third_fragment">Hello third fragment</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="empty">EMPTY</string>
+    <string name="blank"></string>
     <!-- Auto -->
     <string name="changeTire">How to Change a Tire</string>
     <string name="checkTire">How to Check Tire Pressure</string>
@@ -37,10 +39,41 @@
     <string name="makeCoffee">How to Make Coffee</string>
     <string name="writeCheck">How to Write a Check</string>
     <string name="home">TrueClues</string>
+    <string name="tieHome">Tie Home</string>
+
     <string name="lifePathFour">Calculate a Tip</string>
     <string name="lifePathThree">Write a Check</string>
     <string name="lifePathTwo">Make Coffee</string>
     <string name="lifePathOne">Tie a Tie</string>
+    <string name="lifePathOneOne">Which Tie Knot Do you Want?</string>
+    <string name="homeLifehome">Home</string>
+    <string name="lifeHome">Life Home</string>
+    <string name="back">Back</string>
+    <string name="Step1">Step 1</string>
+    <string name="Step2">Step 2</string>
+    <string name="Step3">Step 3</string>
+    <string name="Step4">Step 4</string>
+    <string name="Step5">Step 5</string>
+    <string name="Step6">Step 6</string>
+    <string name="Step7">Step 7</string>
+    <string name="Step8">Step 8</string>
+    <string name="Step9">Step 9</string>
+    <string name="Step10">Step 10</string>
+    <string name="Step11">Step 12</string>
+    <string name="windsor1">Half Windsor</string>
+    <string name="windsor11">Drape the tie around your neck with the wide end about 12 inches below the narrow end.</string>
+    <string name="windsor12">Cross the wide end of the tie over the narrow end.</string>
+    <string name="windsor13">Push the wide end up through the loop near your collar.</string>
+    <string name="windsor14">Pull the wide end out and over the loop around your neck (to your right).</string>
+    <string name="windsor15">Pull the wide end out and over the loop around your neck (to your right).</string>
+    <string name="windsor16">Then pass it over the front of the loop to create a horizontal bar (the front face of the triangle). You can use your fingers to maintain some space behind this bar.</string>
+    <string name="windsor17">Now push the wide end up through the back of the loop around your collar.</string>
+    <string name="windsor18">Then tuck the wide end through the bar you just created at the front of the loop.</string>
+    <string name="windsor19">Pull down gently on the wide end to tighten your knot. Hold the narrow end and push the knot up towards your collar to finish.</string>
+    <string name="windsor110">To finish, push the narrow end of your tie through the keeper loop behind the wide end.</string>
+    <string name="windsor2">Full Windsor</string>
+    <string name="simpleKnot">Simple Knot</string>
+    <string name="fourInHandKnot">Four In Hand Knot</string>
     <string name="lifeTitle">General Life Essentials</string>
     <string name="step_03">Step 3:</string>
     <string name="before_you_begin_jacking_the_car_loosen_but_do_not_take_off_completely_the_lug_nuts">Before you begin jacking the car, loosen–but do not take off completely–the lug nuts.</string>
@@ -101,5 +134,7 @@
     <string name="total">Total</string>
     <string name="tip_amount">Tip Amount:</string>
     <string name="enter_bill_amount">enter bill amount:</string>
+    <string name="tire_pressure">tire pressure</string>
+    <string name="wiper_fluid">wiper fluid</string>
 
 </resources>

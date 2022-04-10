@@ -44,7 +44,7 @@ public class ConversionPathTwoOne extends Fragment {
                 binding.tipAmount.setText(""+CalculatingTip(input1, input2));
             }
         });
-        binding.totalBill.setOnClickListener(new View.OnClickListener() {
+        binding.LifeHome1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 double input1 = Double.parseDouble(binding.inputBill.getText().toString());

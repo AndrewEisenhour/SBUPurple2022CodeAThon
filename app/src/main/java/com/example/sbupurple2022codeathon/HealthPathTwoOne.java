@@ -36,7 +36,7 @@ public class HealthPathTwoOne extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.next.setOnClickListener(new View.OnClickListener() {
+        binding.LifeHome1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(HealthPathTwoOne.this)
