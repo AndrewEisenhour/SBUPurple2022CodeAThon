@@ -36,7 +36,7 @@ public class ConversionPathOneOne extends Fragment {
                         .navigate(R.id.action_LifeHome_to_FirstFragment);
             }
         });*/
-        binding.CToF.setOnClickListener(new View.OnClickListener() {
+        binding.LifeHome1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 double input = Double.parseDouble(binding.inputNumber.getText().toString());

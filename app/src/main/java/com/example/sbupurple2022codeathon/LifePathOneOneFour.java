@@ -29,7 +29,7 @@ public class LifePathOneOneFour extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.next3.setOnClickListener(new View.OnClickListener() {
+        binding.next4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(LifePathOneOneFour.this)
@@ -43,7 +43,7 @@ public class LifePathOneOneFour extends Fragment {
                         .navigate(R.id.action_lifePathOneOneFour_to_lifePathOneOneThree);
             }
         });
-        binding.tiehome2.setOnClickListener(new View.OnClickListener() {
+        binding.tiehome3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(LifePathOneOneFour.this)

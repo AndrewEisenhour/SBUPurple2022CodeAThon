@@ -29,7 +29,7 @@ public class LifePathOneOneTen extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.Next.setOnClickListener(new View.OnClickListener() {
+        binding.back4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(LifePathOneOneTen.this)
