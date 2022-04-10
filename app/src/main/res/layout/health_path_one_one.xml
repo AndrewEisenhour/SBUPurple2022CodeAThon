@@ -47,7 +47,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/text_view_countdown"
         android:layout_centerHorizontal="true"
-        android:text="@string/countDownStart" />
+        android:text="@string/countDownStart"
+        android:backgroundTint="#C98686"/>
 
     <Button
         android:id="@+id/button_reset"
@@ -58,7 +59,8 @@
         android:layout_toEndOf="@+id/button_start_pause"
         android:text="@string/countDownReset"
         android:visibility="invisible"
-        tools:visibility="visible" />
+        tools:visibility="visible"
+        android:backgroundTint="#C98686"/>
 
 
 </RelativeLayout>

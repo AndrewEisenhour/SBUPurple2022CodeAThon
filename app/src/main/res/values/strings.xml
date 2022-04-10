@@ -12,7 +12,7 @@
     <string name="tie_tieing_greet">How to Tie a Tie</string>
     <string name="auto">Auto</string>
     <string name="next">Next</string>
-    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_first_fragment">Welcome to TrueClues!</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="hello_third_fragment">Hello third fragment</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -132,5 +132,7 @@
     <string name="total">Total</string>
     <string name="tip_amount">Tip Amount:</string>
     <string name="enter_bill_amount">enter bill amount:</string>
+    <string name="tire_pressure">tire pressure</string>
+    <string name="wiper_fluid">wiper fluid</string>
 
 </resources>
