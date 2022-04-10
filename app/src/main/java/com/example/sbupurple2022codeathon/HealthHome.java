@@ -57,13 +57,6 @@ public class HealthHome extends Fragment {
                         .navigate(R.id.action_HealthHome_to_healthPathThreeOne);
             }
         });
-        binding.pathFour.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NavHostFragment.findNavController(HealthHome.this)
-                        .navigate(R.id.action_HealthHome_to_healthPathFourOne);
-            }
-        });
     }
 
     @Override

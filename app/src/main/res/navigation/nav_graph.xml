@@ -12,15 +12,24 @@
         android:label="@string/empty"
         tools:layout="@layout/health_path_four_one" />
     <fragment
-        android:id="@+id/healthPathThreeOne"
-        android:name="com.example.sbupurple2022codeathon.HealthPathThreeOne"
+        android:id="@+id/healthPathThreeTwo"
+        android:name="com.example.sbupurple2022codeathon.HealthPathThreeTwo"
         android:label="@string/checkPulse"
-        tools:layout="@layout/health_path_three_one" />
+        tools:layout="@layout/health_path_three_two" />
     <fragment
         android:id="@+id/healthPathTwoOne"
         android:name="com.example.sbupurple2022codeathon.HealthPathTwoOne"
-        android:label="@string/cpr"
+        android:label="@string/checkPulse"
         tools:layout="@layout/health_path_two_one" />
+    <fragment
+        android:id="@+id/healthPathThreeOne"
+        android:name="com.example.sbupurple2022codeathon.HealthPathThreeOne"
+        android:label="@string/cpr"
+        tools:layout="@layout/health_path_three_one" >
+        <action
+            android:id="@+id/action_healthPathThreeOne_to_healthPathThreeTwo"
+            app:destination="@id/healthPathThreeTwo" />
+    </fragment>
     <fragment
         android:id="@+id/healthPathOneOne"
         android:name="com.example.sbupurple2022codeathon.HealthPathOneOne"

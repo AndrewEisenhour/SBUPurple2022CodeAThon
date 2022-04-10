@@ -26,6 +26,7 @@
     <!-- Health -->
     <string name="calmDown">How to Relax</string>
     <string name="instructions">Breathe in</string>
+    <string name="Pulse">Pulse</string>
     <string name="countDownStart">start</string>
     <string name="countDownReset">reset</string>
 
@@ -80,7 +81,7 @@
     <string name="pump_gas">Pump Gas</string>
     <string name="door_3">Door #3</string>
     <string name="door_4">Door #4</string>
-    <string name="home">Home</string>
+
     <string name="textview">TextView</string>
 
     <string name="feet_to_inches">Feet to Inches</string>
