@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -19,10 +18,10 @@
         app:layout_constraintVertical_bias="0.918" />
 
     <TextView
-        android:id="@+id/StepFive"
+        android:id="@+id/StepEight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="72dp"
         android:layout_marginEnd="152dp"
         android:text="@string/step_6"
         android:textColor="#000000"
@@ -31,6 +30,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/Instructions6"
         android:layout_width="341dp"
         android:layout_height="349dp"
         android:layout_marginTop="168dp"

@@ -62,7 +62,56 @@
         android:id="@+id/autoPathTwoOne"
         android:name="com.example.sbupurple2022codeathon.AutoPathTwoOne"
         android:label="@string/checkTire"
-        tools:layout="@layout/auto_path_two_one" />
+        tools:layout="@layout/auto_path_two_one" >
+        <action
+            android:id="@+id/action_autoPathTwoOne_to_autoPathTwoTwo"
+            app:destination="@id/autoPathTwoTwo" />
+    </fragment>
+    <fragment
+        android:id="@+id/autoPathTwoTwo"
+        android:name="com.example.sbupurple2022codeathon.AutoPathTwoTwo"
+        android:label="@string/checkTire"
+        tools:layout="@layout/auto_path_two_two" >
+        <action
+            android:id="@+id/action_autoPathTwoTwo_to_autoPathTwoThree"
+            app:destination="@id/autoPathTwoThree" />
+    </fragment>
+    <fragment
+        android:id="@+id/autoPathTwoThree"
+        android:name="com.example.sbupurple2022codeathon.AutoPathTwoThree"
+        android:label="@string/checkTire"
+        tools:layout="@layout/auto_path_two_three" >
+        <action
+            android:id="@+id/action_autoPathTwoThree_to_autoPathTwoFour"
+            app:destination="@id/autoPathTwoFour" />
+    </fragment>
+    <fragment
+        android:id="@+id/autoPathTwoFour"
+        android:name="com.example.sbupurple2022codeathon.AutoPathTwoFour"
+        android:label="@string/checkTire"
+        tools:layout="@layout/auto_path_two_four" >
+        <action
+            android:id="@+id/action_autoPathTwoFour_to_autoPathTwoFive"
+            app:destination="@id/autoPathTwoFive" />
+    </fragment>
+    <fragment
+        android:id="@+id/autoPathTwoFive"
+        android:name="com.example.sbupurple2022codeathon.AutoPathTwoFive"
+        android:label="@string/checkTire"
+        tools:layout="@layout/auto_path_two_five" >
+        <action
+            android:id="@+id/action_autoPathTwoFive_to_autoPathTwoSix"
+            app:destination="@id/autoPathTwoSix" />
+    </fragment>
+    <fragment
+        android:id="@+id/autoPathTwoSix"
+        android:name="com.example.sbupurple2022codeathon.AutoPathTwoSix"
+        android:label="@string/checkTire"
+        tools:layout="@layout/auto_path_two_six" >
+        <action
+            android:id="@+id/action_autoPathTwoSix_to_AutoHome"
+            app:destination="@id/AutoHome" />
+    </fragment>
     <fragment
         android:id="@+id/autoPathOneOne"
         android:name="com.example.sbupurple2022codeathon.AutoPathOneOne"
@@ -112,7 +161,38 @@
         android:id="@+id/autoPathOneSix"
         android:name="com.example.sbupurple2022codeathon.AutoPathOneSix"
         android:label="@string/changeTire"
-        tools:layout="@layout/auto_path_one_six" />
+        tools:layout="@layout/auto_path_one_six" >
+        <action
+            android:id="@+id/action_autoPathOneSix_to_autoPathOneSeven"
+            app:destination="@id/autoPathOneSeven" />
+    </fragment>
+    <fragment
+        android:id="@+id/autoPathOneSeven"
+        android:name="com.example.sbupurple2022codeathon.AutoPathOneSeven"
+        android:label="@string/changeTire"
+        tools:layout="@layout/auto_path_one_seven" >
+        <action
+            android:id="@+id/action_autoPathOneSeven_to_autoPathOneEight"
+            app:destination="@id/autoPathOneEight" />
+    </fragment>
+    <fragment
+        android:id="@+id/autoPathOneEight"
+        android:name="com.example.sbupurple2022codeathon.AutoPathOneEight"
+        android:label="@string/changeTire"
+        tools:layout="@layout/auto_path_one_eight" >
+        <action
+            android:id="@+id/action_autoPathOneEight_to_autoPathOneNine"
+            app:destination="@id/autoPathOneNine" />
+    </fragment>
+    <fragment
+        android:id="@+id/autoPathOneNine"
+        android:name="com.example.sbupurple2022codeathon.AutoPathOneNine"
+        android:label="@string/changeTire"
+        tools:layout="@layout/auto_path_one_nine" >
+        <action
+            android:id="@+id/action_autoPathOneNine_to_AutoHome"
+            app:destination="@id/AutoHome" />
+    </fragment>
     <fragment
         android:id="@+id/lifePathFourOne"
         android:name="com.example.sbupurple2022codeathon.LifePathFourOne"
