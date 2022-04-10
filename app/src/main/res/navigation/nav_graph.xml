@@ -52,20 +52,12 @@
         android:id="@+id/autoPathFourOne"
         android:name="com.example.sbupurple2022codeathon.AutoPathFourOne"
         android:label="@string/empty"
-        tools:layout="@layout/auto_path_four_one" >
-        <action
-            android:id="@+id/action_autoPathFourOne_to_AutoHome"
-            app:destination="@id/AutoHome" />
-    </fragment>
+        tools:layout="@layout/auto_path_four_one" />
     <fragment
         android:id="@+id/autoPathThreeOne"
         android:name="com.example.sbupurple2022codeathon.AutoPathThreeOne"
         android:label="@string/pumpGas"
-        tools:layout="@layout/auto_path_three_one" >
-        <action
-            android:id="@+id/action_autoPathThreeOne_to_AutoHome"
-            app:destination="@id/AutoHome" />
-    </fragment>
+        tools:layout="@layout/auto_path_three_one" />
     <fragment
         android:id="@+id/autoPathTwoOne"
         android:name="com.example.sbupurple2022codeathon.AutoPathTwoOne"
