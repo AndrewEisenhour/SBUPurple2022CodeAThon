@@ -40,7 +40,7 @@ public class ConversionPathFourOne extends Fragment {
             @Override
             public void onClick(View view) {
                 double input = Double.parseDouble(binding.inputPounds.getText().toString());
-                binding.outputText2.setText(""+PoundToKilogram(input));
+                binding.outputText2.setText(String.format("%f.2",PoundToKilogram(input)));
             }
         });
 

@@ -36,23 +36,14 @@ public class ConversionPathTwoOne extends Fragment {
                         .navigate(R.id.action_LifeHome_to_FirstFragment);
             }
         });*/
-        binding.tipCalculator.setOnClickListener(new View.OnClickListener() {
+        binding.PtoKilo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                double input1 = Double.parseDouble(binding.inputBill.getText().toString());
-                double input2 = Double.parseDouble(binding.inputTip.getText().toString());
-                binding.tipAmount.setText(""+CalculatingTip(input1, input2));
+                double input = Double.parseDouble(binding.inputPounds.getText().toString());
+                binding.outputText2.setText(""+PoundToKilogram(input));
             }
         });
-        binding.LifeHome1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                double input1 = Double.parseDouble(binding.inputBill.getText().toString());
-                double input2 = Double.parseDouble(binding.inputTip.getText().toString());
-                double total = (input1 + CalculatingTip(input1, input2));
-                binding.outputTotal.setText(""+ total);
-            }
-        });
+
     }
 
     @Override
@@ -60,8 +51,8 @@ public class ConversionPathTwoOne extends Fragment {
         super.onDestroyView();
         binding = null;
     }
-    public double CalculatingTip(double input1, double input2){
-        return input1*(input2/100);
+    public double PoundToKilogram(double input){
+        return (input*1.60934);
     }
 
 }

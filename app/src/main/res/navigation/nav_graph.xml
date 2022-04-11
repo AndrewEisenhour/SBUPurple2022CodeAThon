@@ -162,7 +162,7 @@
     <fragment
         android:id="@+id/lifePathFourOne"
         android:name="com.example.sbupurple2022codeathon.LifePathFourOne"
-        android:label="@string/empty"
+        android:label="@string/tip_calculator"
         tools:layout="@layout/life_path_four_one" />
     <fragment
         android:id="@+id/lifePathThreeOne"

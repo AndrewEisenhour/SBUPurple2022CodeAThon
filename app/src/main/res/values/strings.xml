@@ -126,8 +126,8 @@
     <string name="Ftinconversion">conversion:</string>
     <string name="Result">TextView</string>
     <string name="result">Result:</string>
-    <string name="farenheit_to_celcius">Farenheit to Celcius</string>
-    <string name="celius_to_farenheit">Celius to Farenheit</string>
+    <string name="farenheit_to_celcius">Fahrenheit to Celsius</string>
+    <string name="celius_to_farenheit">Celsius to Fahrenheit</string>
     <string name="tip_calculator">Tip Calculator</string>
     <string name="total_bill">Total Bill:</string>
     <string name="enter_tip">enter tip %:</string>
@@ -136,5 +136,8 @@
     <string name="enter_bill_amount">enter bill amount:</string>
     <string name="tire_pressure">tire pressure</string>
     <string name="wiper_fluid">wiper fluid</string>
+    <string name="gramPounds">Kilograms to Pounds</string>
+    <string name="kmToMiles">Miles to Kilometers</string>
+    <string name="enter_miles">Enter miles:</string>
 
 </resources>
